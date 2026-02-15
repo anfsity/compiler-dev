@@ -34,7 +34,7 @@ RUN apt update && DEBIAN_FRONTEND="noninteractive" apt install -y \
   git flex bison python3 \
   make cmake \
   qemu-user-static \
-  clang-21 lldb-21 lld-21
+  clang-21 clangd-21 lldb-21 lld-21
 
 # setup LLVM toolchain
 WORKDIR /root
