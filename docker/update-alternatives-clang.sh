@@ -40,6 +40,7 @@ function register_clang_version {
     --slave   /usr/bin/clang-cl              clang-cl              /usr/bin/clang-cl-${version} \
     --slave   /usr/bin/clang-cpp             clang-cpp             /usr/bin/clang-cpp-${version} \
     --slave   /usr/bin/clang-format          clang-format          /usr/bin/clang-format-${version} \
+    --slave   /usr/bin/clangd                clangd                /usr/bin/clangd-${version}  \
     --slave   /usr/bin/clang-format-diff     clang-format-diff     /usr/bin/clang-format-diff-${version} \
     --slave   /usr/bin/clang-import-test     clang-import-test     /usr/bin/clang-import-test-${version} \
     --slave   /usr/bin/clang-include-fixer   clang-include-fixer   /usr/bin/clang-include-fixer-${version} \
