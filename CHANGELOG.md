@@ -2,6 +2,12 @@
 
 关于 `compiler-dev` Docker 镜像的所有变更将陈列至此.
 
+## 未发布
+
+### 新增
+
+* [PR #8](https://github.com/pku-minic/compiler-dev/pull/8): Add clangd support.
+
 ## 0.0.9 - 2025-11-15
 
 ### 新增
